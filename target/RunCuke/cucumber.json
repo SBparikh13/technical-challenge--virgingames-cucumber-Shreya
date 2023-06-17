@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6366626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to game page when you click on menu tab",
+        "description": "",
+        "id": "homepage-functionality;user-should-navigate-to-game-page-when-you-click-on-menu-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 718445100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 176310800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "VirginGamesSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271742900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accepted cookie",
+            "match": {
+              "location": "VirginGamesSteps.iAcceptedCookie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306858800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on All games Tab",
+            "match": {
+              "location": "VirginGamesSteps.iClickOnAllGamesTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2050295600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get online slots text",
+            "match": {
+              "location": "VirginGamesSteps.iGetOnlineSlotsText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44972100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify \u0027online slots\u0027 text",
+            "match": {
+              "location": "VirginGamesSteps.iVerifyOnlineSlotsText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403126600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \u00273 Lucky Rainbow\u0027 game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "VirginGamesSteps.iClickOnLuckyRainbowGame(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to game page",
+            "match": {
+              "location": "VirginGamesSteps.iNavigateToGamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3895110000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should navigate to login verify page successfully",
+        "description": "",
+        "id": "homepage-functionality;user-should-navigate-to-login-verify-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 740296100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the  homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344666400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I accept cookie on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAcceptCookieOnHomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347420500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42428700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should navigate to verify page successfully",
+            "match": {
+              "location": "LoginPageSteps.iShouldNavigateToVerifyPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage functionality",
+    "description": "As user I want to check top menu tab and login tab functionality",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "virgingames.feature"
+  }
+]
